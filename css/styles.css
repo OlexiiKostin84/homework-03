@@ -224,17 +224,17 @@ ul {
 
 .footer {
   background-color: var(--footer-color);
+  padding: 100px 0;
 }
 
 .footer-container {
   display: block;
-  padding-top: 100px;
   padding-right: 864px;
   padding-bottom: 100px;
 }
 
 .footer-logo-link {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
