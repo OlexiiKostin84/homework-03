@@ -23,13 +23,54 @@ body {
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
   font-style: normal;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-nav {
+  display: flex;
+  
+  
+}
+
+.nav-list {
+  width: 261px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25.5px;
+  margin-right: 332px;
+  margin-bottom: 25.5px;
 }
 
 .nav-menu {
@@ -39,9 +80,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--nav-link-color);
 }
- 
+
 .address {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  margin: 24px;
+}
+
+.address-item {
+  display: flex;
 }
 
 .address-menu {
@@ -52,9 +102,8 @@ body {
   color: var(--address-link-color);
 }
 
-.logo {
-  font-family: "Raleway",
-    sans-serif;
+.nav-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -64,8 +113,7 @@ body {
 }
 
 .nav-logo-span {
-  font-family: "Raleway",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -73,6 +121,14 @@ body {
   text-transform: uppercase;
   color: var(--nav-logo-span-color);
 }
+
+.nav-logo-link {
+  width: 115px;
+  display: flex;
+  margin-top: 25.5px;
+  margin-right: 76px;
+  margin-bottom: 25.5px;
+  }
 
 .nav-menu:hover,
 .nav-menu:focus,
@@ -105,7 +161,9 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-}
+
+  margin: 0 auto;
+  }
 
 .hero .button:hover,
 .hero .button:focus {
@@ -156,12 +214,10 @@ body {
   color: var(--main-text-color);
 }
 
-
-
 .team {
   background-color: var(--team-background-color);
 }
- 
+
 .team-cards {
   background-color: #ffffff;
 }
@@ -170,9 +226,20 @@ body {
   background-color: var(--footer-color);
 }
 
+.footer-container {
+  display: block;
+  padding-top: 100px;
+  padding-right: 864px;
+  padding-bottom: 100px;
+}
+
+.footer-logo-link {
+  display: block;
+  margin-bottom: 16px;
+}
+
 .footer-logo {
-  font-family: "Raleway",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -182,8 +249,7 @@ body {
 }
 
 .footer-logo-span {
-  font-family: "Raleway",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
