@@ -83,12 +83,17 @@ img {
   }
 
 .navigation-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+    
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--nav-link-color);
 }
+
+
 
 .address {
   display: flex;
@@ -102,9 +107,6 @@ img {
 }
 
 .address-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
