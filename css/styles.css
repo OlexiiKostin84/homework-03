@@ -38,8 +38,6 @@ img {
   display: block;
 }
 
-
-
 .list {
   list-style: none;
   padding: 0;
@@ -52,7 +50,6 @@ img {
 }
 
 .container {
-  
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -73,18 +70,18 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
- }
+}
 
 .navigation-list {
-    width: 261px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
+  width: 261px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 
 .navigation-link {
   padding: 24px 0;
-    
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -117,7 +114,7 @@ img {
   margin-top: 25.5px;
   margin-right: 76px;
   margin-bottom: 25.5px;
-  
+
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -145,18 +142,17 @@ img {
 }
 
 .hero-section {
-    background-color: var(--hero-background-color);
-  }
+  background-color: var(--hero-background-color);
+}
 
-  .hero-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
-  }
-
+.hero-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 
 .hero-title {
   width: 496px;
-  
+
   margin-right: auto;
   margin-bottom: 48px;
   margin-left: auto;
@@ -172,9 +168,7 @@ img {
 .hero-button-box {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  gap: 24px;
-  }
+}
 
 .advantages-list {
   display: flex;
@@ -197,7 +191,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  }
+}
 
 .hero-button:hover,
 .hero-button:focus {
@@ -206,7 +200,6 @@ img {
 }
 
 .advantages-container {
-
 }
 
 .production .button {
