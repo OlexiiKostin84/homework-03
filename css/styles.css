@@ -168,7 +168,7 @@ img {
   display: flex;
   align-items: center;
   flex-direction: row;
-  jc
+  
   }
 
 .advantages-list {
@@ -176,6 +176,7 @@ img {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .hero-button {
