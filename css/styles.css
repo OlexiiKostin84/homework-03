@@ -92,8 +92,6 @@ img {
   color: var(--nav-link-color);
 }
 
-
-
 .address {
   display: flex;
   margin-left: auto;
@@ -146,11 +144,24 @@ img {
   color: #404bbf;
 }
 
-.hero {
+.hero-container {
   background-color: var(--hero-background-color);
+  }
+
+
+.hero-title-box {
+  width: 496px;
+
+  margin-top: 188px;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+
+background-color: tomato;
 }
 
 .hero-title {
+   
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -159,25 +170,43 @@ img {
   color: #ffffff;
 }
 
-.hero .button {
+.hero-button-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  jc
+  }
+
+.advantages-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hero-button {
+  display: block;
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-
-  margin: 0 auto;
   }
 
-.hero .button:hover,
-.hero .button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
   color: #ffffff;
+}
+
+.advantages-container {
+
 }
 
 .production .button {
