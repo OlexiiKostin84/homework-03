@@ -145,7 +145,7 @@ img {
 }
 
 .hero-section {
-  background-color: var(--hero-background-color);
+    background-color: var(--hero-background-color);
   }
 
 .hero-title {
