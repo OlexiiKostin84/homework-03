@@ -289,6 +289,7 @@ img {
 
 .filter-container {
   display: flex;
+  margin-bottom: 72px;
   align-items: center;
   flex-direction: row;
   margin: 0 auto 72px;
@@ -297,16 +298,23 @@ img {
 .filters-list {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
   gap: 24px;
+  margin-bottom: 72px;
+}
+
+.filters-list:last-child {
+  margin-right: 0;
 }
 
 .filters-buttons {
-  display: block;
+  display: flex;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 
+  padding: 12px 24px;  
+  
   background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -323,6 +331,7 @@ img {
 .filters-buttons:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparen
 }
 
 .title {
@@ -349,14 +358,17 @@ img {
   color: var(--main-text-color);
 }
 
+.production-section {
+  padding: 96px 0 120p
+}
+
 .production-cards-list {
   display: flex;
-
+  row-gap: 48px;
+  column-gap: 24px;
   flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 48px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: start;
 }
 
@@ -364,7 +376,7 @@ img {
   background: #ffffff;
   display: block;
   border: 1px solid #e7e9fc;
-  flex-basis: calc((100%-24px * 2) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .production-cards-image {
@@ -374,10 +386,10 @@ img {
 }
 
 .production-cards-title {
-  padding: 32px 54px 32px 16px;
+  
 }
 .production-cards-text {
-  padding: 0 314px 32px 16px;
+  
 }
 
 .footer {
