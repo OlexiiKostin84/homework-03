@@ -250,34 +250,34 @@ img {
   margin: 0 auto 72px;
 }
 
-.cards-list {
+.team-cards-list {
   display: flex;
   align-items: start;
   flex-direction: row;
   gap: 24px;
 }
 
-.cards-item {
+.team-cards-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.cards-image {
+.team-cards-image {
   margin-bottom: 32px;
 }
 
-.cards-title {
+.team-cards-title {
   text-align: center;
   margin-bottom: 8px;
 }
 
-.cards-signature {
+.cteam-cards-signature {
   padding: 32px 16px;
 }
 
-.cards-text {
+.team-cards-text {
   text-align: center;
   margin-bottom: 32px;
 }
@@ -384,6 +384,7 @@ img {
 .production-cards-signature {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .production-cards-title {
